@@ -2,8 +2,24 @@
 
 Web site project : https://are-dynamic-2021-2022-g1.github.io/roadTraffic/
 
-# Introductiion
-  Notre travail de recherche porte sur la modélisation des trafics routiers, et en particulier sur l'empreinte carbone des vehicules les empruntant. Notre objectif est de faire varier différents paramètres comme la forme des villes, le nombre de routes, le nombre de feux rouges et d'intersections, la vitesse des véhicules, les types de moyens de transports utilisés : voitures thermique, électrique, bus, camions ainsi que les mobilités dites douces telles que le vélo, la trotinette ou la marche à pied. Ainsi, notre objectif est de trouver une combinaison entre ces différents paramètres pour infiné réduire les émissions de dioxyde de carbone. Les enjeux de cette problématique sont principalement environnementaux et donc d'actualités.
+# Introduction
+  Our research work focuses on the modeling of road traffic, and in especially on the carbon footprint of the vehicles using them. Our objective is to create and  to vary different parameters such as the shape of cities, the number of roads, the number of red lights and intersections, the speed of vehicles, the types of transport used: thermal cars, electric cars, buses, trucks as well as so-called soft mobility such as bicycles, scooters or walking. Thus, our objective is to find a combination between these different parameters to ultimately reduce carbon dioxide emissions. The challenges of this problem are mainly environmental and therefore it is a topical issue.
+  
+ # Sources tools 
+ - *GOOGLE*, general and wide public search engine
+ - *GOOGLE Scholar*, Google services allowing research of scientific articles and publications, general data (lots of choice but not necessarily relevant)
+ - *Primo BSU*, catalog of libraries, articles and works of university, advanced level (and general public for the press)
+ - *WEB OF SCIENCES*, database of university-level articles, advanced level of specialization in scientific fields
+ - *Techniques de l'ingénieur*, database specializing in scientific articles and technical documentation in French, advanced level of specialization
+ - *Wikipédia*, general and consumer search engine, used for searching key-words
+ - *TermSiences*, scientific terminology portal, used for searching key-words
+ - *Ztero bib*, tool allowing to format a citation and therefore create a bibliography
+ 
+ # Technicals tools 
+ - *Python*, programming language
+ - *Jupyter Notebook*, notebook allowing to code in python, add python libraries...(IDE)
+ - *numpy*, 
+  
   
   
 
