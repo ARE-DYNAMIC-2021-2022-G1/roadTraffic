@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML: Images</title>
+        <style>
+        p {
+          color: rgb(197, 0, 0);
+        }
+        z {
+          color: rgb(36, 250, 17);
+        }
+  </style>
+    </head>
+    <body>
+
+    <h1><p>ARE DYNAMIC</p></h1>
+    <h1><z>Road Traffic Simulation</z></h1>
+      
+    <img src="https://upload.wikimedia.org/wikipedia/fr/8/81/Sciences_SU.png" width="203">
+    
+    <img src="https://thumbs.dreamstime.com/b/route-de-croisement-changha%C3%AF-101380114.jpg" width="203"> 
+    
+    <h2>Semaine 1 du 14 Mars 2022:</h2>
+    
+    <ul>
+        <li>Début de notre projet qui consiste à modéliser le traffic routier au sein d'une ville aisi que son impact carbone 
+            sur notre envirronnement en faisant varier différents paramètres comme la forme de notre système routier, différents 
+            moyens de transport (voiture thermique, voiture électrique, bus), nombres d'intersection, feux rouges. Nous avons tout
+            d'abord réalisé un brainstorming pour clarifier les idées principales de notre projet. Nous avons également mis en commun
+            nos recherches des semaines précédantes et finaliser notre travail de recherche documentaire ainsi que notre bibliographie
+            dont les documents nous serviront de base pour coder notre modèle (voir rubrique "Bibliographie"). Ensuite, nous avons 
+            commencé à réfléchir à la façon de modéliser notre système routier en python. Nos recherches ainsi que les conseils de notre
+            professeurs nous ont conduit à utiliser des matrices adjacentes pour modéliser nos systèmes routiers. Nous avons fait
+            également des recherches concernant l'utilisation de la bibliothèque NetworkX en python.</li>
+    
+    </ul>
+    
+    <h2>Semaine 2 du 21 Mars 2022:</h2>
+    
+    <ul>
+        <li>Cette semaine nous avons codé en python notre première ville à l'aide de la bibliothèque NetworkX. Nous avons pour cela utilisé
+            une matrice adjacente dans laquelle chaque intersection (noeud) de notre système correspond à une colonne. On inscrit 1 à
+            l'intersection entre une ligne et une colonne si les deux noeuds correspondants sont reliés entre eux, 0 sinon. Nous avons ensuite
+            programmé une fonction 'ville_graph' qui nous permet de représenter notre matrice adjacente sous forme d'un graph correspond donc au
+            système routier étudié. Cette fonction utilise en grande partie différents modules de la bibliothèque NetworkX (ajout de 'nodes' et 'edges).
+            Elle nous servira de base pour ensuite faire évoluer notre système et le représenter graphiquement à chaque évolution dans le temps.
+            Une fois cette fonction terminée et notre matrice adjacente de la semaine dernière correctement représentée (flèche dans la bonne direction,
+            numérotation de chaque 'node'), nous avons intégré à notre code le module 'shortest_path' qui permet de déterminer le chemin le plus court
+            entre deux 'nodes' (la position de départ et celle d'arrivée d'un automobiliste).
+            Enfin, nous avons recherché dans la documentation de NetworkX le moyen d'ajouter un attribut de longueur à l'ensemble de nos
+            routes. Il existe en fait un paramètre 'len' dans la fonction 'add.edge'. La longueur de nos routes sera définie aléatoirement entre une 
+            longueur minimale et maximale donnée en mètre.
+        </li>
+    </ul>
+    
+    <h2>Semaine 3 du 28 Mars 2022:</h2>
+    
+    <ul>
+        <li>Aujourd'hui, nous avons fait des recherches concernant la programmation objet. Nous allons en effet considéré chaque voiture comme un objet
+        possédant des informations différentes. Nous définissons pour cela une Class voiture en tête de notre programme. Chaque voiture possèdera des
+        informations uniques (noeud de départ, noeud d'arrivée, vitesse, vitesse min, vitesse max, type de voiture (thermique, hybride ou électrique),
+        son émission de C02 par mètre parcourus. Il reste maintenant à trouver le moyen d'intégrer nos voitures à notre système routier. Malgré plusieurs
+        tentatives ce n'est pas chose facile, nous avons rencontré des problèmes. Nous effectuerons des recherches cette semaine en vue d'aboutir à la mise
+        en place de nos voitures sur notre graph la semaine prochaine.
+        Nous avons également recherché comment intégrer et utiliser le module 'time' pour faire évoluer notre système routier à un pas de temps
+        fixé (10 secondes). </li>
+    </ul>
+    
+    <h2>Semaine 4 du 4 Avril 2022:</h2>
+    
+    <ul>
+        <li>Notre projet avance bien. Premièrement, nous avons mis au point notre class voiture avec les différentes informations nécessaires. Ensuite,
+        on a vérifié que le module 'shortest_path' de NetworkX prennait bien en compte la distance de nos routes. Nous avons ensuite créé une fonction 
+        'calcul_distance' qui comme son nom l'indique calcul la distance qu'une voiture a parcouru sur la route durant le pas de temps de 10 secondes.
+        Ensuite, une autre fonction 'donne longueur' qui permet de récupérer la longueur d'une route (longueur entre deux nodes donc) en utilisant un
+        dictionnaire qui regroupe l'ensemble des longueurs des routes de notre système.
+        Enfin, nous avons codé une fonction 'position' qui nous permet de faire évoluer la postion de notre voiture sur la route en fonction de sa vitesse,
+        savoir si elle est arrivée à destination, ou bien si elle change de route (d'edge). Cela se fait à l'aide de deux fonctions auxiliaires 'change 
+        position' et 'change distance'. </li>
+    </ul>
+        
+    <h2>Semaine 5 du 11 Avril 2022:</h2>
+    
+    <ul>
+        <li>A COMPLETER !!! Qu'avons nous ce-jour ???</li>
+    </ul
+
+    </body>
+</html>
