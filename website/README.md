@@ -1,4 +1,3 @@
-@@ -1,40 +1,33 @@
 # roadTraffic
 
 Web site project : https://are-dynamic-2021-2022-g1.github.io/roadTraffic/
