@@ -9,11 +9,11 @@ During this research workshop, we have chosen to study Dynamic models. We are pa
 
 Our research work focuses on the simulation of road traffic, and in especially on the carbon footprint of the vehicles using them. Our objective is to create and  to vary different parameters such as the shape of cities, the number of roads, the number of red lights and intersections, the speed of vehicles, the types of transport used: thermal cars, electric cars, buses, trucks and also as well as so-called soft mobility such as bicycles, scooters or walking. Thus, our objective is to find a combination between these different parameters to ultimately reduce carbon dioxide emissions. The challenges of this problem are mainly environmental and therefore it is a topical issue.
 <br>
-- Does the shape of a road system have an impact on the carbon footprint emitted by vehicles ?
+- *Does the shape of a road system have an impact on the carbon footprint emitted by vehicles ?
 <br>
-- What is the percentage of electric or hybrid cars needed in the city to drastically reduce the carbon footprint ?
+- *What is the percentage of electric or hybrid cars needed in the city to drastically reduce the carbon footprint ?
 <br>
-- What are the impacts of traffic jams, red lights, intersections, road closures on our road system and on CO2 emissions ?
+- *What are the impacts of traffic jams, red lights, intersections, road closures on our road system and on CO2 emissions ?
 
 # Technicals tools 
  - *Python*, programming language
