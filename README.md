@@ -18,6 +18,7 @@ Our research work focuses on the simulation of road traffic, and in especially o
 # Project details
 
    (code, screens of visual animations, explanations ...) 
+   See our website
 
 
 # Results 
