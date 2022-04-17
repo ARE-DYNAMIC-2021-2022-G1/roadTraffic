@@ -24,12 +24,13 @@ What are the impacts of traffic jams, red lights, intersections, road closures o
 # Project details
 
    (code, screens of visual animations, explanations ...) 
-   See our website
+   <br>See our website
 
 
 # Results 
 
    (graph, result, conclusion, how to reduce C02 emissions) 
+   <br>
 
 # Sources tools 
  - *GOOGLE*, general and wide public search engine
