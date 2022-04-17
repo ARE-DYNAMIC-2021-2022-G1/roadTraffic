@@ -12,6 +12,7 @@ Our research work focuses on the simulation of road traffic, and in especially o
 Does the shape of a road system have an impact on the carbon footprint emitted by vehicles?
 <br>
 What is the percentage of electric or hybrid cars needed in the city to drastically reduce the carbon footprint?
+<br>
 What are the impacts of traffic jams, red lights, intersections, road closures on our road system and on CO2 emissions?
 
 # Technicals tools 
