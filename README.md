@@ -3,7 +3,11 @@
 Web site project : https://are-dynamic-2021-2022-g1.github.io/roadTraffic/
 
 # Introduction
-  Our research work focuses on the modeling of road traffic, and in especially on the carbon footprint of the vehicles using them. Our objective is to create and  to vary different parameters such as the shape of cities, the number of roads, the number of red lights and intersections, the speed of vehicles, the types of transport used: thermal cars, electric cars, buses, trucks and also as well as so-called soft mobility such as bicycles, scooters or walking. Thus, our objective is to find a combination between these different parameters to ultimately reduce carbon dioxide emissions. The challenges of this problem are mainly environmental and therefore it is a topical issue.
+Hello everyone, we are Felix BOSS, Daba KONE, Lounes DOUAR and Vincent OPPISI, four first-year undergraduate students (formal sciences: mathematics-computing) at the Faculty of Science and Engineering of Sorbonne University in Paris, France. 
+As part of our schooling we follow a teaching unit entitled: Supervised Research Workshop. It aims to introduce students to the scientific approach: development of rigorous reasoning, analysis, synthesis and restitution of acquired knowledge.
+During this research workshop, we have chosen to study Dynamic models. We are particularly interested in the modeling of road traffic.
+
+Our research work focuses on the simulation of road traffic, and in especially on the carbon footprint of the vehicles using them. Our objective is to create and  to vary different parameters such as the shape of cities, the number of roads, the number of red lights and intersections, the speed of vehicles, the types of transport used: thermal cars, electric cars, buses, trucks and also as well as so-called soft mobility such as bicycles, scooters or walking. Thus, our objective is to find a combination between these different parameters to ultimately reduce carbon dioxide emissions. The challenges of this problem are mainly environmental and therefore it is a topical issue.
 
 # Technicals tools 
  - *Python*, programming language
