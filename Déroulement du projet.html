@@ -165,8 +165,23 @@
     
     <ul>
         <li>Last session for our project. We started by correcting the small problems of the 'simulation' function.<br>
-            Next,
-            <br>We finally have our first results (see results section)</li>
+            Once our simulation is running perfectly well, we have coded auxiliary functions. First, 'nb_voiture_edge_temp_reel' which,
+          as its name suggests, allows you to know the number of cars moving on each road at each time step. In the logic of this function,
+          we have therefore produced the following function: 'route_plus_sature' which returns the list of the most frequented edeges in
+          real time (thus corresponding to traffic jams in our road system). We also color the most saturated road(s) on the graphical representation
+          of our road system using the 'color_ville_g' function.<br>
+          Secondly, we also coded the following functions: 'route_plus_parcouru_simu' which takes the car population as a parameter and which
+          concatenates all the paths of the population in the form of tuples and returns the tuple(s) with the most occurrences, as well as the
+          'number_car_passage_edge' function which also takes our initial population of cars as a parameter and which concatenates the paths and
+          returns a histogram which represents the number of cars which have passed on each edge at the end of the simulation.<br>
+          So we want to see how cars react when a road is closed. For this we delete the most used road from our road system (function 'suppression_routes')
+          and update the new route of each car. Thus, with the same population of cars, we run the model again in the same city but with the busiest road
+          or roads closed to traffic and we compare the CO2 levels with different percentages of internal combustion, electric and hybrid cars
+          (functions 'modified_cities' and 'simulation_bis').<br>
+          Finally, we want to see what happens when we vary the percentage of taking the shortest path ('simulation_2' function). Indeed, in real life
+          we all take the shortest route when we have to travel (with the fewest kilometers) but it is not always the one that is the fastest
+          (in the event of traffic jams in particular) , and the results obtained are represented graphically.<br>
+          We finally have our first results (see results section).</li>
           </ul>
           
           
