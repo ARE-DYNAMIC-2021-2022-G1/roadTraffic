@@ -110,14 +110,25 @@
            <bleu>Nous pouvons après cette première simulation que la ville d'origine revient presque tout le temps comme celle avec le moins d'émissions
             de C02 donc cela ne vaut pas la peine de retirer des routes dans une ville en vue de mesures écologiques.</bleu><br>
            
-            <vert>Métrique 2 -</vert>
+            <vert>Métrique 2 - On modifie la probabilité de prendre le chemin le plus court.</vert>
+           <br><br>
+            Nous créons une liste de populations dans laquelle on modifie le pourcentage de choisir le chemin le plus court. Il varie entre 0.1 et 1 avec
+            un pas de 0.1 à chaque liste. Ensuite, on regarde les émissions de C02 pour chaque population : voici le graphique obtenu. La population 1 étant
+            celle avec le moins de chance d'obtenir le chemin le plus court et la population 10 est celle où l'on prend toujours le chemin le plus court.
+            Précision dans ce modèle minimaliste, les trois dernières populations de (7 à 10) sont les mêmes. Le résultat ci-dessous est donc cohérent.<br>
+            <img src="https://i.goopics.net/7r2vgr.png" width="500" height="280"><br>
+            <bleu>On en conclut que pour obtenir la plus petite émission de carbone possible, dans la grande majorité des cas il faut que les voitures
+              empreintent le chemin le plus court.</bleu>
+            
            
            
            
            <br><br><br>
            
+           
           <p><rouge>- Maintenant, considérons notre ville_2 (Paris simplifié)</rouge>, parcourue par 35 voitures (50% électriques, 50% thermiques)
            <br>    
+            <vert>Vérifions les hypothèses émises précedemment avec ce nouveau modèle plus complexe :</vert><br>
            <img src="https://i.goopics.net/vvxo5k.png" width="260" height="180">
            <br>
            Nous remarquons tout d'abord, d'après l'histogramme ci-dessous, que les routes les plus empruntées sont l'axe (8-9) et (9-10). En effet il s'agit
