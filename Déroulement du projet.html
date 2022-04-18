@@ -113,11 +113,11 @@
             an adjacent matrix in which each intersection (node) of our system corresponds to a column. Write 1 to
             the intersection between a row and a column if the two corresponding nodes are linked together, 0 otherwise. <br>
           We have next
-            programmed a function 'ville_graph' which allows us to represent our adjacent matrix in the form of a graph therefore corresponds to the
+          programmed a function <bleu>'ville_graph'</bleu> which allows us to represent our adjacent matrix in the form of a graph therefore corresponds to the
             road system studied. This function largely uses different modules from the NetworkX library (addition of 'nodes' and 'edges').
             It will serve as a basis for us to then evolve our system and represent it graphically at each evolution over time.<br>
             Once this function is complete and our adjacent matrix from last week is correctly represented (arrow in the right direction,
-            numbering of each 'node'), we have integrated into our code the 'shortest_path' module which makes it possible to determine the shortest path
+            numbering of each 'node'), we have integrated into our code the <bleu>'shortest_path'</bleu> module which makes it possible to determine the shortest path
             between two 'nodes' (the starting position and the arrival position of a motorist).<br>
             Finally, we searched the NetworkX documentation for a way to add a length attribute to all of our
             roads. There is actually a 'len' parameter in the 'add.edge' function. The length of our routes will be randomly defined between a
@@ -146,18 +146,18 @@
     
     <ul>
         <li>Our project is progressing well. First, we developed our car class with the different information needed. Next, we checked
-          that the 'shortest_path' module of NetworkX takes into account the distance of our routes. We then created a 'give length'
+          that the <bleu>'shortest_path'</bleu> module of NetworkX takes into account the distance of our routes. We then created a <bleu>'give length'</bleu>
           function which allows us to retrieve the length of a route (length between two nodes therefore) by using a dictionary which
           gathers all the lengths of the roads in our system.<br>
-          We have also coded a function 'index_path' which allows us to retrieve the position of our car in real time on the road.<br>
-          Also, we have created a great function 'change_distance' which allows to move a car every 10s. It therefore calculates
+          We have also coded a function <bleu>'index_path'</bleu> which allows us to retrieve the position of our car in real time on the road.<br>
+          Also, we have created a great function <bleu>'change_distance'</bleu> which allows to move a car every 10s. It therefore calculates
           the distance traveled by a car on the road during the time step of 10 seconds depending on the speed of the car and the length
           of the road. It modifies the parameters of the car: percentage of the distance traveled on a road (edge) according to its speed,
           change of node when you reach the end of the road and addition of the distance traveled on the new road. It carries out the change
           of position of the car as long as the latter has not arrived at its destination. For this, it uses the previous functions (mainly
-          'indice_path' and 'give_length').<br>
-          Finally, we created the 'simulation' function which is the main function of our project. It includes all the functions we created
-          the previous weeks (mainly 'change_distance'). It takes as a parameter the number of cars that travel through our system, the
+          <bleu>'indice_path'</bleu> and <bleu>'give_length'</bleu>).<br>
+          Finally, we created the <bleu>'simulation'</bleu> function which is the main function of our project. It includes all the functions we created
+          the previous weeks (mainly <bleu>'change_distance'</bleu>). It takes as a parameter the number of cars that travel through our system, the
           population of cars, the size of the city (adjacent matrix size), the graph of the city. It allows cars to evolve and interact with
           our road system. It runs as long as all the cars have not arrived at their destination.</li>
         <br>
@@ -167,21 +167,21 @@
           <h2><vert>Week 5 of April 11, 2022:</vert></h2>
     
     <ul>
-        <li>Last session for our project. We started by correcting the small problems of the 'simulation' function.<br>
-            Once our simulation is running perfectly well, we have coded auxiliary functions. First, 'nb_voiture_edge_temp_reel' which,
+        <li>Last session for our project. We started by correcting the small problems of the <bleu>'simulation'</bleu> function.<br>
+            Once our simulation is running perfectly well, we have coded auxiliary functions. First, <bleu>'nb_voiture_edge_temp_reel'</bleu> which,
           as its name suggests, allows you to know the number of cars moving on each road at each time step. In the logic of this function,
-          we have therefore produced the following function: 'route_plus_sature' which returns the list of the most frequented edeges in
+          we have therefore produced the following function: <bleu>'route_plus_sature'</bleu> which returns the list of the most frequented edeges in
           real time (thus corresponding to traffic jams in our road system). We also color the most saturated road(s) on the graphical representation
-          of our road system using the 'color_ville_g' function.<br>
-          Secondly, we also coded the following functions: 'route_plus_parcouru_simu' which takes the car population as a parameter and which
+          of our road system using the <bleu>'color_ville_g'</bleu> function.<br>
+          Secondly, we also coded the following functions: <bleu>'route_plus_parcouru_simu'</bleu> which takes the car population as a parameter and which
           concatenates all the paths of the population in the form of tuples and returns the tuple(s) with the most occurrences, as well as the
-          'number_car_passage_edge' function which also takes our initial population of cars as a parameter and which concatenates the paths and
+          <bleu>'number_car_passage_edge'</bleu> function which also takes our initial population of cars as a parameter and which concatenates the paths and
           returns a histogram which represents the number of cars which have passed on each edge at the end of the simulation.<br>
-          So we want to see how cars react when a road is closed. For this we delete the most used road from our road system (function 'suppression_routes')
+          So we want to see how cars react when a road is closed. For this we delete the most used road from our road system (function <bleu>'suppression_routes'</bleu>)
           and update the new route of each car. Thus, with the same population of cars, we run the model again in the same city but with the busiest road
           or roads closed to traffic and we compare the CO2 levels with different percentages of internal combustion, electric and hybrid cars
-          (functions 'modified_cities' and 'simulation_bis').<br>
-          Finally, we want to see what happens when we vary the percentage of taking the shortest path ('simulation_2' function). Indeed, in real life
+          (functions <bleu>'modified_cities'</bleu> and <bleu>'simulation_bis'</bleu>).<br>
+          Finally, we want to see what happens when we vary the percentage of taking the shortest path (<bleu>'simulation_2'</bleu> function). Indeed, in real life
           we all take the shortest route when we have to travel (with the fewest kilometers) but it is not always the one that is the fastest
           (in the event of traffic jams in particular) , and the results obtained are represented graphically.<br>
           We finally have our first results (see results section).</li>
