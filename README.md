@@ -10,7 +10,7 @@ Web site project : https://are-dynamic-2021-2022-g1.github.io/roadTraffic/
 # Technicals tools 
  - *Python*, programming language
  - *Jupyter Notebook*, notebook allowing to code in python, add python libraries...(IDE)
- - *numpy*, 
+ - *numpy*
 
 
 # Porject details
